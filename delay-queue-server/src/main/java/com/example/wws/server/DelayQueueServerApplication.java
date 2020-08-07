@@ -1,0 +1,13 @@
+package com.example.wws.server;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DelayQueueServerApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(DelayQueueServerApplication.class, args);
+    }
+
+}
